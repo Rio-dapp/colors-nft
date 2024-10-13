@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Light.ttf'); 
+  }
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('fonts/Poppins-Bold.ttf'); 
+  }
+
+  @font-face {
+    font-family: 'Chonburi';
+    src: url('fonts/Chonburi-Regular.ttf'); 
+  }
+
+.background {
+    background-image: url('images/background.png');
+}
+
+
+@media screen and (max-width: 1024px) {
+    .color-cercle-img {
+        width: 512px;
+        position: relative;
+  
+    }
+
+    .mint-cercle-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .color-cercle-img {
+        width: 256px;
+        position: relative;
+          
+            }
+}
+
+
+
+.hi-main{
+    font-family: 'Chonburi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.p-main-desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.color-yellow{
+    color: #FFBF00;
+}
+
+.background-black-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-white{
+    color: white;
+}
+
+.navbar-logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.blockchain-selector {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .wallet-data-div{
+
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    margin-left: 10px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .wallet-address-div{
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 170px;
+    height: 40px;
+  }
+
+.poligon-mini {
+    float: left;
+    padding: 8px;
+}
+
+.ligt-font{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}
+
+.bold-font{
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 800;
+    }
+
+
+.user-logo{
+    float: right;
+}
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+.nav-top-padding{
+    padding-top: 8px;
+}
+
+.nav-padding{
+    padding: 20px;
+}
+
+.nav-roks-link{
+    text-decoration: none;
+}

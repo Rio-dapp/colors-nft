@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Light.ttf'); 
+  }
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('fonts/Poppins-Bold.ttf'); 
+  }
+
+.background {
+    background-image: url('images/background.png');
+}
+
+.background-black-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-white{
+    color: white;
+}
+
+.blockchain-selector {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .wallet-data-div{
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .wallet-address-div{
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 170px;
+    height: 40px;
+  }
+
+.poligon-mini {
+    float: left;
+    padding: 8px;
+}
+
+.ligt-font{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}
+
+.bold-font{
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 800;
+    }
+
+
+.user-logo{
+    float: right;
+}
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+.nav-top-padding{
+    padding-top: 8px;
+}
+
+.padding-20{
+    padding: 20px;
+}

@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Light.ttf'); 
+  }
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('fonts/Poppins-Bold.ttf'); 
+  }
+
+  @font-face {
+    font-family: 'Chonburi';
+    src: url('fonts/Chonburi-Regular.ttf'); 
+  }
+
+  body { 
+    background: url('images/background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+
+.m-cerd{
+    margin: 20px;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+  
+.navbar-light .navbar-toggler-icon {
+    border-color: rgb(255, 255, 255);
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.color-cercle{
+    width: 512px;
+    height: 512px;
+}
+.color-cercle-img {
+    position: absolute;
+    width: 512px;
+}
+
+.mint-cercle-img {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    overflow: hidden;
+    background: url(images/mint-button.png);
+    position: relative;
+    margin: 176px;
+    width: 160px;
+    height: 160px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .color-cercle{
+        width: 256px;
+        height: 256px;
+    }
+    .color-cercle-img {
+        position: absolute;
+        width: 256px;
+    }
+
+     .mint-cercle-img {
+        font-size: 12px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        overflow: hidden;
+        background: url(images/mint-button.png);
+        position: relative;
+        margin: 88px;
+        width: 80px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+
+
+.hi-main{
+    font-family: 'Chonburi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.p-main-desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.color-yellow{
+    color: #FFBF00;
+}
+
+.background-black-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-white{
+    color: white;
+}
+
+.navbar-logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 10px;
+}
+
+.button-mint
+{
+  width: 220px; 
+  height: 52px; 
+}
+
+.blockchain-selector {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .wallet-data-div{
+
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    margin-left: 10px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .wallet-address-div{
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 170px;
+    height: 40px;
+  }
+
+.poligon-mini {
+    float: left;
+    padding: 8px;
+}
+
+.ligt-font{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}
+
+.bold-font{
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 800;
+    }
+
+
+.user-logo{
+    float: right;
+}
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+.nav-top-padding{
+    padding-top: 8px;
+}
+
+.nav-padding{
+    padding: 20px;
+}
+
+.nav-roks-link{
+    text-decoration: none;
+}
+
+.button-marge{
+    background-color: transparent;
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+}
+
+.color-image{
+    width: 100%;
+    height: 144px;
+    
+    border-radius: 10px;
+}
+
+.buy-button{
+    vertical-align: bottom;
+    float: right;
+    background-color: transparent;
+    border: 1px solid #FFD400;
+    border-color: #FFD400;
+    color: #FFD400;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buy-button:hover {
+    color: #ff4800;
+}
+
+.color-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 216px;
+}
+
+.color-card-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.color-card-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+.color-place{
+    width: 120px;
+    height: 120px;
+}
+.picker-conteiner {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 150px;
+    height: 150px;
+  }

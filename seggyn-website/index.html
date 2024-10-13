@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="mystyle.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <title>OWNABLI</title>
+</head>
+
+<body>
+  <div class="container-fluid px-0 home-page">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark menu">
+      <div class="container-fluid container-xl g-0 ps-3 px-xl-auto">
+        <div class="row align-items-center gap-2 m-auto align-items-lg-between w-100">
+          <div class="col-2 col-lg-1 logo-col">
+            <a class="navbar-brand" href="#">
+              <img class="img picture-logo" src="images/logo.png" />
+            </a>
+          </div>
+          <div class="col-12 col-lg-4 order-last order-lg-0 text-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link active" aria-current="page" href="./index.html">Claim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link" href="./merge.html">Merge</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link" href="./marketplace.html">Markets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link" href="./about.html">About</a>
+                </li>
+              </ul>
+
+              <div class="d-lg-none">
+                <div class="twitter-block w-100 text-center">
+                  <a href="">
+                    <img class="img" src="./images/Twitter.png" alt="">
+                  </a>
+                </div>
+                <div class="badges mt-3">
+                  <div class="badges d-lg-none d-flex badges-content gap-2 align-self-stretch flex-lg-nowrap">
+
+                    <div class="figure-badge inner-badge">
+                      <div class="blockchain-selector position-relative px-1">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="images/poligon.png" class="img img-figure" />
+                          Polygon
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown" >
+                          <li>
+                            <h6 class="dropdown-header">Select network</h6>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <img src="images/poligon.png" class="img img-figure" />
+                              Action
+                            </a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="profile-badge inner-badge">
+                      <div class="wallet-data-div">
+                        <p class="ligt-font text-white left-float nav-top-padding">12.8729</p>
+                        <div class="wallet-address-div right-float">
+                          <p class="ligt-font text-white left-float nav-top-padding">0xf43c...3d2c</p>
+                          <img src="images/user.png" class="user-logo" height="40px" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 d-none d-lg-inline text-start flex-grow-0 flex-lg-grow-1 text-lg-center">
+            <div class="twitter-block">
+              <a href=""><img class="img" src="./images/Twitter.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-5 align-items-end pe-0 pe-lg-auto">
+            <div class="badges d-none d-lg-inline-flex right-float">
+
+              <div class="figure-badge inner-badge">
+                <div class="blockchain-selector position-relative px-1">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/poligon.png" class="img img-figure" />
+                    Polygon
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown" >
+                    <li>
+                      <h6 class="dropdown-header">Select network</h6>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="images/poligon.png" class="img img-figure" />
+                        Action
+                      </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="profile-badge inner-badge">
+                <div class="wallet-data-div">
+                  <p class="ligt-font text-white left-float nav-top-padding">12.8729</p>
+                  <div class="wallet-address-div right-float">
+                    <p class="ligt-font text-white left-float nav-top-padding">0xf43c...3d2c</p>
+                    <img src="images/user.png" class="user-logo" height="40px" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="navbar-toggler right-float" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main-container mt-2-5">
+      <div class="row">
+        <div class="col">
+          <div class="container-fluid px-sm-3">
+          <h1 class="hi-main mb-5">TRULY OWNABLE NFT&nbsp;COLORS</h1>
+          <p class="p-main-desc text-white pe-4">
+            Claim one random free color from the <spn class="color-yellow">16,777,216</spn> unclaimed ones. Merge your
+            colors to get a new one or buy a color of your choice from the marketplace
+          </p>
+
+          <div class="row g-3 mt-40 text-lg-start justify-content-center justify-content-md-start">
+            <div class="col-6 w-auto">
+              <button class="button-mint">MARKETPLACE</button>
+            </div>
+
+            <div class="col-6 w-auto">
+              <button class="button-mint button-marge">MERGE</button>
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <div class="col mt-2-5 mt-md-0">
+          <div class="color-cercle text-center m-auto">
+            <img src="images/color_circle.png" class="color-cercle-img" />
+            <button class="mint-cercle-img">
+              <span class="text-white ligt-font">GENERATE</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container main-container color-cards">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-3">
+        <div class="col">
+          <div class="card color-card m-cerd">
+            <div class="card-img-top color-image" style="background-color: #FFBF00;"></div>
+            <div class="card-body">
+              <div class="left-float">
+                <h5 class="card-title color-card-title">Vivid sky blue</h5>
+                <p class="card-text color-card-text">13,000 MATIC</p>
+              </div>
+              <button class="btn buy-button right-float">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card color-card m-cerd">
+            <div class="card-img-top color-image" style="background-color: #3D9AFA;"></div>
+            <div class="card-body">
+              <div class="left-float">
+                <h5 class="card-title color-card-title">Vivid sky blue</h5>
+                <p class="card-text color-card-text">13,000 MATIC</p>
+              </div>
+              <button class="btn buy-button right-float">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card color-card m-cerd">
+            <div class="card-img-top color-image" style="background-color: #FF7BCA;"></div>
+            <div class="card-body">
+              <div class="left-float">
+                <h5 class="card-title color-card-title">Vivid sky blue</h5>
+                <p class="card-text color-card-text">13,000 MATIC</p>
+              </div>
+              <button class="btn buy-button right-float">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card color-card m-cerd">
+            <div class="card-img-top color-image" style="background-color: #F54D4D;"></div>
+            <div class="card-body">
+              <div class="left-float">
+                <h5 class="card-title color-card-title">Vivid sky blue</h5>
+                <p class="card-text color-card-text">13,000 MATIC</p>
+              </div>
+              <button class="btn buy-button right-float">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card color-card m-cerd">
+            <div class="card-img-top color-image" style="background-color: #00FFB3;"></div>
+            <div class="card-body">
+              <div class="left-float">
+                <h5 class="card-title color-card-title">Vivid sky blue</h5>
+                <p class="card-text color-card-text">13,000 MATIC</p>
+              </div>
+              <button class="btn buy-button right-float">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card color-card m-cerd">
+            <div class="card-img-top color-image" style="background-color: #FFBF00;"></div>
+            <div class="card-body">
+              <div class="left-float">
+                <h5 class="card-title color-card-title">Vivid sky blue</h5>
+                <p class="card-text color-card-text">13,000 MATIC</p>
+              </div>
+              <button class="btn buy-button right-float">BUY</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

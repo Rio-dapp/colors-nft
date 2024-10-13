@@ -1,0 +1,7 @@
+.background {
+    background-image: url('images/background.png');
+}
+
+.background-black-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}

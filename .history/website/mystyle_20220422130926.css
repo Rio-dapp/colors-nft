@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Light.ttf'); 
+  }
+
+.background {
+    background-image: url('images/background.png');
+}
+
+.background-black-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-white{
+    color: white;
+}
+
+.blockchain-selector {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .wallet-data-div{
+    vertical-align: middle;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .wallet-address-div{
+    float: right;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 100px;
+    height: 40px;
+  }
+
+.poligon-mini {
+    float: left;
+    padding: 8px;
+}
+
+.ligt-font{
+ 
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}

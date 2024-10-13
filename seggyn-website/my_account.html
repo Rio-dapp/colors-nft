@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="colorPick.min.css">
+  <link rel="stylesheet" href="mystyle.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="colorPick.min.js"></script>
+  <title>OWNABLI</title>
+</head>
+
+<body>
+  <div class="container-fluid px-0 home-page">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark menu">
+      <div class="container-fluid container-xl g-0 ps-3 px-xl-auto">
+        <div class="row align-items-center gap-2 m-auto align-items-lg-between w-100">
+          <div class="col-2 col-lg-1 logo-col">
+            <a class="navbar-brand" href="#">
+              <img class="img picture-logo" src="images/logo.png" />
+            </a>
+          </div>
+          <div class="col-12 col-lg-4 order-last order-lg-0 text-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link active" aria-current="page" href="./index.html">Claim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link" href="./merge.html">Merge</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link" href="./marketplace.html">Markets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-4 nav-roks-link" href="./about.html">About</a>
+                </li>
+              </ul>
+
+              <div class="d-lg-none">
+                <div class="twitter-block w-100 text-center">
+                  <a href="">
+                    <img class="img" src="./images/Twitter.png" alt="">
+                  </a>
+                </div>
+                <div class="badges mt-3">
+                  <div class="badges d-lg-none d-flex badges-content gap-2 align-self-stretch flex-lg-nowrap">
+
+                    <div class="figure-badge inner-badge">
+                      <div class="blockchain-selector position-relative px-1">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="images/poligon.png" class="img img-figure" />
+                          Polygon
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                          <li>
+                            <h6 class="dropdown-header">Select network</h6>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <img src="images/poligon.png" class="img img-figure" />
+                              Action
+                            </a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="profile-badge inner-badge">
+                      <div class="wallet-data-div">
+                        <p class="ligt-font text-white left-float nav-top-padding">12.8729</p>
+                        <div class="wallet-address-div right-float">
+                          <p class="ligt-font text-white left-float nav-top-padding">0xf43c...3d2c</p>
+                          <img src="images/user.png" class="user-logo" height="40px" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 d-none d-lg-inline text-start flex-grow-0 flex-lg-grow-1 text-lg-center">
+            <div class="twitter-block">
+              <a href=""><img class="img" src="./images/Twitter.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-5 align-items-end pe-0 pe-lg-auto">
+            <div class="badges d-none d-lg-inline-flex right-float">
+
+              <div class="figure-badge inner-badge">
+                <div class="blockchain-selector position-relative px-1">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/poligon.png" class="img img-figure" />
+                    Polygon
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                    <li>
+                      <h6 class="dropdown-header">Select network</h6>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="images/poligon.png" class="img img-figure" />
+                        Action
+                      </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="profile-badge inner-badge">
+                <div class="wallet-data-div">
+                  <p class="ligt-font text-white left-float nav-top-padding">12.8729</p>
+                  <div class="wallet-address-div right-float">
+                    <p class="ligt-font text-white left-float nav-top-padding">0xf43c...3d2c</p>
+                    <img src="images/user.png" class="user-logo" height="40px" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="navbar-toggler right-float" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid d-grid gap-0 pt-544">
+      <div class="container-fluid d-grid content-body gx-0 w-696">
+        <div class="container background-transparent rounded-top px-0 pt-3">
+          <div class="account-switcher px-3 text-white">
+            <div class="row d-flex align-items-center mx-1">
+              <div class="col-md-auto col-sm-12  px-1">
+                <!--                            <div class="">-->
+                <!--                                <a class="my-account-circle" href=""></a>-->
+                <!--                            </div>-->
+                <img src="images/user.png" height="40" />
+              </div>
+              <div class="col-md-8 col-sm-12 mt-sm-2 mt-2 text-md-start">
+                <h6 class="my-account-title m-0">My account</h6>
+                <p class="my-account- m-0 ">0x234af3f23f232358983dac</p>
+              </div>
+              <div class="col-md-3 col-sm-12 mt-2 mt-sm-0 d-md-flex justify-content-md-end text-ms-center px-1">
+                <a class="btn my-account-btn-logout">Logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container background-transparent rounded-bottom p-0 mt-01">
+          <div>
+            <nav class="container-nav-tabs">
+              <div class="row nav gx-0" id="nav-tab" role="tablist">
+                <button class="col nav-tab-link active nav-tab-link-active" id="nav-home-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                  aria-selected="true">Colors</button>
+                <button class="col nav-tab-link nav-tab-link-active" id="nav-profile-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                  aria-selected="false">Orders</button>
+                <button class="col nav-tab-link nav-tab-link-active" id="nav-contact-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                  aria-selected="false">History</button>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="container background-transparent mt-3 p-0 text-white">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <!-- gap-3 m-auto justify-content-start align-self-center -->
+              <div class="row colors-container g-3">
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+                <div class="color-block">
+                  <div class="color-box" data-color="#ffffff"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              Second
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              Three
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

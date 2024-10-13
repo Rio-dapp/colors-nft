@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Light.ttf'); 
+  }
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('fonts/Poppins-Bold.ttf'); 
+  }
+
+  @font-face {
+    font-family: 'Chonburi';
+    src: url('fonts/Chonburi-Regular.ttf'); 
+  }
+
+.background {
+    background-image: url('images/background.png');
+}
+
+
+
+    .color-cercle{
+        width: 512px;
+        height: 512px;
+    }
+    .color-cercle-img {
+        position: absolute;
+        width: 512px;
+    }
+
+    .mint-cercle-img {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        overflow: hidden;
+        background: url(images/mint-button.png);
+        position: relative;
+        margin: 176px;
+        width: 160px;
+        height: 160px;
+    }
+
+
+@media screen and (max-width: 480px) {
+    .color-cercle{
+        width: 256px;
+        height: 256px;
+    }
+    .color-cercle-img {
+        position: absolute;
+        width: 256px;
+    }
+
+     .mint-cercle-img {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        overflow: hidden;
+        background: url(images/mint-button.png);
+        position: relative;
+        margin: 88px;
+        width: 80px;
+        height: 80px;
+        background-repeat: no-repeat;
+  background-size: auto;
+    }
+}
+
+
+
+.hi-main{
+    font-family: 'Chonburi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.p-main-desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.color-yellow{
+    color: #FFBF00;
+}
+
+.background-black-transparent {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-white{
+    color: white;
+}
+
+.navbar-logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.blockchain-selector {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .wallet-data-div{
+
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    margin-left: 10px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .wallet-address-div{
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    padding-left: 15px;
+    width: 170px;
+    height: 40px;
+  }
+
+.poligon-mini {
+    float: left;
+    padding: 8px;
+}
+
+.ligt-font{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}
+
+.bold-font{
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 800;
+    }
+
+
+.user-logo{
+    float: right;
+}
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+.nav-top-padding{
+    padding-top: 8px;
+}
+
+.nav-padding{
+    padding: 20px;
+}
+
+.nav-roks-link{
+    text-decoration: none;
+}
